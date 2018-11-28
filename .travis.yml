@@ -4,10 +4,3 @@ os:
 julia:
   - nightly
   - 1.0
-
-script:
-##- julia -e 'import Pkg; Pkg.build(); Pkg.test(; coverage=true)'
-- julia --code-coverage test/runtests.jl
-  
-  after_success:
-- julia -e 'cd(Pkg.dir("MyPkg")); Pkg.add("Coverage"); using Coverage; Codecov.submit(Codecov.process_folder())'
