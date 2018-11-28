@@ -4,3 +4,6 @@ os:
 julia:
   - nightly
   - 1.0
+
+script:
+- julia -e 'import Pkg; Pkg.build(); Pkg.test(; coverage=true)'
