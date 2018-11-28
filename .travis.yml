@@ -8,5 +8,5 @@ julia:
 script:
 - julia -e 'import Pkg; Pkg.build(); Pkg.test(; coverage=true)'
 
-  after_success:
-- julia -e 'cd(Pkg.dir("MyPkg")); Pkg.add("Coverage"); using Coverage; Codecov.submit(Codecov.process_folder())'
+after_success:
+- julia -e 'cd(Pkg.dir("TravisTest")); Pkg.add("Coverage"); using Coverage; Codecov.submit(process_folder())'
