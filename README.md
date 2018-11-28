@@ -1,6 +1,7 @@
 # TravisTest
 
 [![Build Status](https://travis-ci.com/Timmmdavis/JuliaTravisTest.svg?branch=master)](https://travis-ci.com/Timmmdavis/JuliaTravisTest)
+[![Coverage Status](https://coveralls.io/repos/github/Timmmdavis/JuliaTravisTest/badge.svg?branch=master)](https://coveralls.io/github/Timmmdavis/JuliaTravisTest?branch=master)
 
 A Package example that works with Julia 1.0.0 and up on Travis. 
 
