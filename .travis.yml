@@ -5,6 +5,9 @@ julia:
   - nightly
   - 1.0
 
+service_name: travis-pro
+repo_token: LcuAfIQSUa8QskwO7PcbdgitCdiVjHUXi
+  
 script:
 - julia -e 'import Pkg; Pkg.build(); Pkg.test(; coverage=true)'
 
