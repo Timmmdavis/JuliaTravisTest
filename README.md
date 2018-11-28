@@ -1,5 +1,7 @@
 # TravisTest
 
+[![Build Status](https://travis-ci.com/Timmmdavis/JuliaTravisTest.svg?branch=master)](https://travis-ci.com/Timmmdavis/JuliaTravisTest)
+
 A Package example that works with Julia 1.0.0 and up on Travis. 
 
 /test contains the test scripts.
