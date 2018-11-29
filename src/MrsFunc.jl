@@ -1,4 +1,4 @@
 function MrsFunc(X)
-Y=X/2
+Y=X/3
 return(Y)
 end
