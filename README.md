@@ -17,9 +17,7 @@ when creating a new package to get a new UUID call
 ```
 Call a 2nd time to get the directory.
 
-Module dependencies are added after 'dep' in the Project.toml file:  
-To add these the UID which is needed is found in the Project/Manifest.toml (directory displayed in the REPL) using `] add YYY` where YYY is the dependency. 
-To find the UUID: 
+Module dependencies are added by:
+cd to package
 ```
->julia Base.identify_package("MAT")
-```
+cd(raw"Path2Package")
