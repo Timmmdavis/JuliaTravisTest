@@ -15,12 +15,12 @@ when creating a new package to get a new UUID call
 ```
 >julia ] generate PackageNameHere
 ```
-Call a 2nd time to get the directory.
+Call a 2nd time to get the directory (or find this package using julia> pwd() ) 
 
 Module dependencies are added by:
-cd to package
+cd into package folder
 ```
-cd(raw"Path2Package")
+cd(raw"Path2Package") #on windows
 ] activate . #the Pkg manager should have the PKG Name on the left
 add DEPNAME
 ```
