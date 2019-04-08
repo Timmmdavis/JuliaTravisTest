@@ -21,3 +21,7 @@ Module dependencies are added by:
 cd to package
 ```
 cd(raw"Path2Package")
+] activate . #the Pkg manager should have the PKG Name on the left
+add DEPNAME
+```
+this then does it all for you. 
